@@ -1,0 +1,22 @@
+{
+  "name": "node-flashcards",
+  "version": "1.0.0",
+  "description": "Flashcards application, with predetermined functionality, that allows you to create your own flashcards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperBerny/Node-flashcards.git"
+  },
+  "author": "Brian Patrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuperBerny/Node-flashcards/issues"
+  },
+  "homepage": "https://github.com/SuperBerny/Node-flashcards#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0"
+  }
+}
