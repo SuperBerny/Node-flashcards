@@ -1,13 +1,13 @@
 //basic card constructor
 //takes two arguments - front and back
-var basicCard = function(front, back) {
+exports.basicCard = function(front, back) {
     this.front = front;
     this.back = back;
 }
 
 //close card constructor
 //takes two arguments - text and cloze
-var clozeCard = function(text, cloze) {
+exports.clozeCard = function(text, cloze) {
     var textToLower = text.toLowerCase();
     var clozeToLower = cloze.toLowerCase();
 
@@ -20,10 +20,4 @@ var clozeCard = function(text, cloze) {
     this.full = text;
     this.cloze = cloze;
     this.partial = text.replace(cloze, "...");
-};
-
-module.exports = {
-    test: "working",
-    basicCard: basicCard,
-    clozeCard = clozeCard
 };
